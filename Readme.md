@@ -26,3 +26,9 @@ No entanto, no arquivo package.json, precisa ser informado essa sintaxe:
 <strong>Obs.:</strong> o res.end(); é somente usado quando usamos o res.write(); para parar a rota.
 
 O __dirname => refere-se a pasta do projeto. Qualquer referencia do projeto, sai como base esse diretorio.
+
+<h1>Body-Parser:</h1>
+<h3>É a forma de obter dados via formulário ou requisição.</h3>
+<p>É necessário instalar o bodyParser atras do comando <strong>npm i body-parser</strong> para se utilizar a obtenção de dados. Alem do express, nunca se esqueça que o express precisa ser instalado em cada projeto. O Nodemon é instalado apenas uma vez na máquina.</p>
+
+<h1>Dica importante: Leia a documentação do BodyParser.</h1>
