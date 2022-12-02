@@ -25,4 +25,4 @@ No entanto, no arquivo package.json, precisa ser informado essa sintaxe:
 
 <strong>Obs.:</strong> o res.end(); é somente usado quando usamos o res.write(); para parar a rota.
 
-O __dirname => refere-se a pasta do projeto. Qualquer referencia do projeto, sai como base esse diretorio
+O __dirname => refere-se a pasta do projeto. Qualquer referencia do projeto, sai como base esse diretorio.
