@@ -1,0 +1,11 @@
+.formulario{
+    display: flex;
+    background-color: grey;
+    color: antiquewhite;
+    font-size: 2em;
+    margin: 10%;
+}
+
+input:placeholder-shown{
+    text-align: center;
+}
