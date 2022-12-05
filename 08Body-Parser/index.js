@@ -7,7 +7,7 @@ const bodyParser = require('body-parser');
 //Criando uma instancia do express
 const aplicacao = estrutura();
 
-//Criando uma instancia do bodyParser
+//Instancia do express recebendo o bodyParser
 aplicacao.use(bodyParser.json()); //O bodyparser estará recebendo os dados em formatos json
 aplicacao.use(bodyParser.urlencoded({extended:false})); //Como se está utilizando o post, se utiliza o 'urlencoded ...'
 
